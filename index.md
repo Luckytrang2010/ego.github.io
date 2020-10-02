@@ -1,0 +1,21 @@
+<html><head>
+    <title>Ego</title>
+</head><body style="
+    background-color: black;
+    font-family: monospace;
+    text-align: -webkit-center;
+    text-size-adjust: auto;
+    color: deeppink;
+">
+    <script src="js/title.js"></script>
+    <h1 style="
+    text-decoration-line: underline;
+">Welcome to Ego!</h1><p>Testing, thanks<br>By Luckytrang2010, the noob of creating a website in HTML</p>
+<button id="test" onclick="var bool = Math.floor(Math.random()*2)
+if (bool == 0) {
+    document.getElementById('test').innerHTML = 'not epic ' + bool
+} else {
+    document.getElementById('test').innerHTML = 'epic ' + bool
+}" style="color: deeppink;background-color: black;border-color: darkslategray;">epic 1</button>
+
+</body></html>
