@@ -1,20 +1,7 @@
-var title = "Ego"
-var num = 1
-var lol = false
-async function changetitle(t,n) {
-    window.document.title = t.substring(0,n)
-}
+var Title = "Ego"
+var ok = 0
+var secs = 1
+var inc = false
 do {
-    changetitle(title,num)
-    num++
-    if (num >= 2) {
-        lol = true
-    }
-} while (lol == false)
-while (lol == true) {
-    changetitle(title,num)
-    num--
-    if (num <= -1) {
-        lol = false
-    }
-}
+    setTimeout(() => { Title.substring(0,ok); if (inc == false) { ok++; } else { ok--; } },secs*1000)
+} while (setTimeout(() => {},secs*1000))
